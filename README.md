@@ -20,7 +20,7 @@
 </a></p></li>
     <p>Documentación los estados condicionales if, else if</p>
     
-    <a><li><p><a href="https://www.frontendmentor.io/home">Frontend Mentor</a></p></li>
+    <li><p><a><li><p><a href="https://www.frontendmentor.io/home">Frontend Mentor</a></p></li>
     <p>Página Web donde podrás conseguir retos de Frontend. Muy recomendado!</p>
   </ul>
   <h1>Código</h1>
