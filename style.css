@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+:root{
+    --fc-primary:hsl(0, 0%, 100%);
+    --fc-secondary: hsl(25, 97%, 53%);
+    --fc-extra:hsl(217, 12%, 63%);
+
+    --bg-color-primary:hsl(216, 12%, 8%);
+    --bg-color-secondary: hsl(213, 19%, 18%);
+    --bg-color-extra: hsl(215,20%,17%);
+
+
+    --rating-color-hover: hsl(216, 12%, 54%);
+    --rating-color-active:hsl(25, 97%, 53%);
+
+    --btn-color-primary:hsl(25, 97%, 53%);
+    --btn-color-active:hsl(0, 0%, 100%);
+
+}
+
+h2{
+    color: var(--fc-primary);
+    margin-bottom: 15px;
+}
+body{
+    background-color: var(--bg-color-primary);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+main{
+    background: linear-gradient(to bottom, hsl(215,20%,17%), hsl(215,14%,12%));
+    color: var(--fc-extra);
+    padding: 2em;
+    max-width: 350px;
+    max-height: 412px;
+    border-radius: 20px;
+    
+}
+
+.how-we-do-container, .thanks-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+
+.star-container{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: url(./images/icon-star.svg);
+    background-position:50% 50%;
+    background-repeat:no-repeat; 
+    background-color: var(--bg-color-secondary);
+}
+
+.rating-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.rating-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--bg-color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-btn:hover{
+    cursor: pointer;
+    color: var(--fc-primary);
+    background-color: var(--rating-color-hover);
+}
+
+
+.submit-btn{
+    padding: .7em 0;
+    border-radius: 35px;
+    color: var(--fc-primary);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--btn-color-primary);
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+}
+.submit-btn:active{
+    color: var(--fc-secondary);
+    background-color: var(--btn-color-active);
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+.thanks-container{
+    align-items: center;
+    text-align: center;
+}
+
+.your-rating-container{
+    color: var(--fc-secondary);
+    background-color: var(--bg-color-secondary);
+    padding: .3em 1em;
+    border-radius: 1em;
+}
