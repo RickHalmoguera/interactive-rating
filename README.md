@@ -18,7 +18,6 @@
     <p>Documentación del metodo ForEach</p>
       <li><p><a href="https://www.w3schools.com/js/js_if_else.asp">JavaScript if, else, and else if</a></p></li>
     <p>Documentación los estados condicionales if, else if</p>
-    
     <li><p><a href="https://www.frontendmentor.io/home">Frontend Mentor</a></p></li>
     <p>Página Web donde podrás conseguir retos de Frontend. Muy recomendado!</p>
   </ul>
